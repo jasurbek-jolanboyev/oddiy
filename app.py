@@ -105,6 +105,5 @@ def analyze_file():
     return chat() 
 
 if __name__ == '__main__':
-    # Render uchun port sozlamalari
     port = int(os.environ.get("PORT", 3000))
     app.run(host='0.0.0.0', port=port)
